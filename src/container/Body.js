@@ -135,7 +135,6 @@ export const Body = () => {
 
         <div className="row">
           <Button textValue="Calcular" compute={calculation} />
-          <Button textValue="Limpar" compute={clear} />
         </div>
 
         <div className="input-group-result">
@@ -165,6 +164,9 @@ export const Body = () => {
             <Items item="Gelo" unit="kg" amount={consumableItems.gelo} />
           </div>
         </div>
+      </div>
+      <div className="row">
+        <Button textValue="Limpar" compute={clear} />
       </div>
     </div>
   );
